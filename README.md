@@ -5,6 +5,16 @@ date: "Sunday, April 26, 2015"
 output: html_document
 ---
 
+The goal of this project is to get a 'tidy' data set so that it can be analized for human activity using smartphone accelerometers data. The data is obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+
+These are the steps that the R code is expected to do. 
+
+ 1.Merges the training and the test sets to create one data set.
+ 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+ 3.Uses descriptive activity names to name the activities in the data set
+ 4. Appropriately labels the data set with descriptive variable names. 
+ 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 I have selected  68 variables, that have the mean and the std of the  measurements. I have also removed the Freqmean, since that is not a measurement. And also teh mean and STD that are used for the angle() function. The variables the I  included in the  tables with their new names are:
 
